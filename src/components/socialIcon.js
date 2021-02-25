@@ -93,7 +93,7 @@ const images = {
 
 const SocialIcon = ({iconName}) => {
     return ( 
-        <IconContainer className="mx-3 relative flex justify-items-end">
+        <IconContainer className="mx-4 relative flex justify-items-end">
         <DefaultImage src={images[iconName].default} />
         <HoverImage src={images[iconName].hover} />
         <ActiveImage src={images[iconName].active} />

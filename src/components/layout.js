@@ -1,49 +1,38 @@
-import PropTypes from "prop-types";
 import React from "react";
+import Hero from './hero'
+import Nombre from './nombre'
+//import Header from "./header";
+import Lateral from './lateral'
+import Spotify from './spotify'
+import imagen from '../images/ImagenFondo.png'
 
-import Header from "./header";
 
-function Layout({ children }) {
+
+function Layout() {
   return (
-    <div className="flex flex-col min-h-screen font-sans text-gray-900 bg-themeDarkBlue">
-      <Header />
 
-      <main className="flex-1 w-full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16">
-        {children}
-      </main>
+    <div className="relative inset-0 h-full w-full object-cover font-sans text-gray-900 bg-themeDarkBlue">
+          <img className="absolute inset-0 h-full w-full object-cover opacity-30" src={imagen} alt="" />
+    <div className="flex space-x-4">
+      <div className="flex-1 relative flex justify-center">
+        <Lateral />
+      </div>
 
-      <footer className="bg-blue-700">
-        <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
-          <p className="text-white">
-            Created by{` `}
-            <a
-              className="font-bold no-underline"
-              href="https://bryant.io"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Taylor Bryant
-            </a>
-          </p>
+      <div className="flex-1 relative flex justify-around">
+        <div className="w-full flex flex-col justify-center">
+          <div className="mp-auto flex justify-center">
+              <Nombre />
+          </div>
+        </div>
+      </div>
 
-          <p>
-            <a
-              className="font-bold text-white no-underline"
-              href="https://github.com/taylorbryant/gatsby-starter-tailwind"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-          </p>
-        </nav>
-      </footer>
+      <div className="flex-1 relative">
+        <Spotify />
+      </div>
     </div>
+    <Hero />
+    </div>
+
   );
 }
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-};
-
 export default Layout;
