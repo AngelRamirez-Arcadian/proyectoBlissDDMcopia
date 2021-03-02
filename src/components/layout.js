@@ -11,7 +11,7 @@ import imagen from '../images/ImagenFondo.png'
 function Layout() {
   return (
 
-    <div className="relative inset-0 h-full w-full object-cover font-sans text-gray-900 bg-themeDarkBlue">
+    <div className="mx-full relative inset-0 h-full w-full object-cover font-sans text-gray-900 bg-themeDarkBlue">
           <img className="absolute inset-0 h-full w-full object-cover opacity-30" src={imagen} alt="" />
     <div className="flex space-x-4">
       <div className="flex-1 relative flex justify-center">

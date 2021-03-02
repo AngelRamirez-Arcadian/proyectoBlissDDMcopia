@@ -14,6 +14,7 @@ import LinkedinActive from '../images/LinkedinActive.svg'
 import Over from '../images/Over.svg'
 import OverHover from '../images/OverHover.svg'
 import OverActive from '../images/OverActive.svg'
+import Spotify from '../images/Spotify.svg'
 
 
 const images = {
@@ -36,6 +37,11 @@ const images = {
       default: Over,
       hover: OverHover,
       active: OverActive
+    },
+    Spotify: {
+      default: Spotify,
+      hover: Spotify,
+      active: Spotify
     }
   }
   

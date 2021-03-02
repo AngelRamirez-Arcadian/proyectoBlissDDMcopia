@@ -97,5 +97,71 @@
     width: 40px;
     border: 3px solid #3399FF;
   }
+  .mi-playlist {
+    height: 19px;
+    width: 96px;
+    color: #7733FF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+  }
+
+  .indicador-de-pagina {
+    height: 14px;
+    width: 136px;
+    color: #7733FF;
+    font-family: "Open Sans";
+    font-size: 15px;
+    letter-spacing: 3.57px;
+    line-height: 14px;
+    text-align: center;
+  }
+  .indicador-de-pagina2 {
+    height: 19px;
+    width: 192px;
+    color: #3399FF;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    line-height: 19px;
+    text-align: center;
+  }
+
+  .titulo {
+    height: 47px;
+    width: 356px;
+    color: #7733FF;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 9px;
+    line-height: 47px;
+    text-align: center;
+  }
+  .subtitulo {
+    height: 29px;
+    width: 730px;
+    color: #3399FF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    line-height: 29px;
+    text-align: center;
+  }
+  .textos-1 {
+    height: 76px;
+    width: 563px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+  }
   
 
