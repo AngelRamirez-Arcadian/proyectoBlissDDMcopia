@@ -164,4 +164,55 @@
     text-align: center;
   }
   
-
+  .textos-2 {
+    height: 53px;
+    width: 598px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+  }
+  .subtitulo-2 {
+    height: 22px;
+    width: 199px;
+    color: #3399FF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .lista {
+    height: 154px;
+    width: 426px;
+    color: #3399FF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  .icono {
+    height: 22px;
+    width: 13px;
+    color: #3399FF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 3.43px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .textos-2-1 {
+    height: 76px;
+    width: 598px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+  }
