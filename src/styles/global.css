@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
 
 .rocha {
     height: 150px;
@@ -36,7 +37,7 @@
   .hi-danrocha-xyz {
     height: 14px;
     width: 80px;
-    transform: rotate(270deg);
+    transform: rotate(90deg);
     color: #3399FF;
     font-family: "Open Sans";
     font-size: 10px;
@@ -48,7 +49,7 @@
   .nombre-de-la-agencia {
     height: 15px;
     width: 208px;
-    transform: rotate(270deg);
+    transform: rotate(90deg);
     color: #3399FF;
     font-family: "Open Sans";
     font-size: 11px;
@@ -59,7 +60,7 @@
   .canutillo-209-canut {
     height: 14px;
     width: 279px;
-    transform: rotate(270deg);
+    transform: rotate(90deg);
     color: #3399FF;
     font-family: "Open Sans";
     font-size: 10px;
@@ -71,7 +72,7 @@
   .cv {
     height: 14px;
     width: 14px;
-    transform: rotate(270deg);
+    transform: rotate(90deg);
     color: #3399FF;
     font-family: "Open Sans";
     font-size: 10px;
@@ -215,4 +216,37 @@
     letter-spacing: 0;
     line-height: 19px;
     text-align: center;
+  }
+  .texto-3 {
+    height: 76px;
+    width: 598px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: start;
+  }
+  .informacion-1 {
+    height: 43px;
+    width: 367px;
+  }
+  .software-engineer {
+    height: 33px;
+    width: 280px;
+    color: #3399FF;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 33px;
+    margin: 0 0 0 0;
+  }
+  .pc {
+    height: 38px;
+    width: 43px;
+  }
+  .act {
+    height: 76px;
+    width: 400px;
   }
