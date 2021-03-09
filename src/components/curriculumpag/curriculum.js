@@ -1,17 +1,16 @@
 import React from "react";
-import Hero from './hero'
-import Lateral from './lateral'
-import Lines from './lines'
-import Infoacercathree from './infoacercathree'
+import Hero from '../hero'
+import Lateral from '../lateral'
+import Lines from '../lines'
+import InfocurriculumP1 from './curiculuminfo'
 
 
 
-
-function Acercademithree() {
+function CurriculumP1() {
   return (
       <body className=" mx-full relative inset-0 h-full w-full object-cover font-sans text-gray-900 bg-themeDarkBlue">
         <header className="container grid justify-items-end h-48 flex-wrap content-end">
-            <h1 className="indicador-de-pagina2 ">&#60;ACERCA DE MI/ &#62;</h1>
+            <h1 className="indicador-de-pagina2 ">&#60;CURRICULUM/ &#62;</h1>
         </header>
         <div className="mx-full relative inset-0 h-full w-full object-cover font-sans text-gray-900 bg-themeDarkBlue">
 
@@ -20,8 +19,12 @@ function Acercademithree() {
         <Lateral />
       </div>
 
-      <div className="flex space-x mt-60">  
-              <Infoacercathree />
+      <div className="flex-1 relative flex justify-around">
+        <div className="w-full flex flex-col justify-center">
+          <div className="mp-auto flex justify-center">
+              <InfocurriculumP1/>
+          </div>
+        </div>
       </div>
 
       <div className="flex-1 relative">
@@ -34,4 +37,4 @@ function Acercademithree() {
 
   );
 }
-export default Acercademithree;
+export default CurriculumP1;

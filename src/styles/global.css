@@ -177,7 +177,7 @@
   }
   .subtitulo-2 {
     height: 22px;
-    width: 199px;
+    width: 210px;
     color: #3399FF;
     font-family: "Open Sans";
     font-size: 16px;
@@ -229,11 +229,21 @@
   }
   .informacion-1 {
     height: 43px;
-    width: 367px;
+    width: 467px;
   }
   .software-engineer {
     height: 33px;
-    width: 280px;
+    width: 400px;
+    color: #3399FF;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 53px;
+  }
+  .software-engineer-icon {
+    height: 38px;
+    width: 38px;
     color: #3399FF;
     font-family: "Open Sans";
     font-size: 22px;
@@ -244,9 +254,109 @@
   }
   .pc {
     height: 38px;
-    width: 43px;
+    width: 38px;
   }
   .act {
     height: 76px;
-    width: 400px;
+    width: 450px;
+  }
+
+  .fecha {
+    height: 17px;
+    width: 416px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 9px;
+    line-height: 17px;
+    text-align: center;
+  }
+  .titulo-2 {
+    height: 47px;
+    width: 241px;
+    color: #7733FF;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 9px;
+    line-height: 47px;
+    text-align: center;
+  }
+  .subtitulo-3 {
+    height: 22px;
+    width: 434px;
+    color: #3399FF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .textos-3 {
+    height: 68px;
+    width: 572px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+  }
+  .texto-4 {
+    height: 87px;
+    width: 701px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+  }
+  
+  .selector-inactivo {
+    box-sizing: border-box;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #3399FF;
+    background-color: #151B38;
+  }
+  .line-2 {
+    box-sizing: border-box;
+    height: 3px;
+    width: 528px;
+    border: 1px solid #3399FF;
+  }
+  .fecha-activa {
+    height: 22px;
+    width: 54px;
+    color: #7733FF;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 4.11px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .ano-inactivo {
+    height: 17px;
+    width: 40px;
+    opacity: 0.25;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 12px;
+    letter-spacing: 3.09px;
+    line-height: 17px;
+    text-align: center;
+  }
+  .subtitulo-4 {
+    height: 22px;
+    width: 217px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
   }
