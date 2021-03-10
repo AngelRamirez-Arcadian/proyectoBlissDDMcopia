@@ -360,3 +360,43 @@
     line-height: 22px;
     text-align: center;
   }
+  .subtitulo-5 {
+    height: 22px;
+    width: 317px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+  }
+  .selector-activo {
+    box-sizing: border-box;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #7733FF;
+    background-color: #151B38;
+    box-shadow: 0 2px 13px 0 #7733FF;
+  }
+  .titulo-3 {
+    height: 47px;
+    width: 541px;
+    color: #7733FF;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 9px;
+    line-height: 47px;
+    text-align: center;
+  }
+  .fecha-2 {
+    height: 17px;
+    width: 516px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 9px;
+    line-height: 17px;
+    text-align: center;
+  }
