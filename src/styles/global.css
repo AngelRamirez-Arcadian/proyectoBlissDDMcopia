@@ -400,3 +400,70 @@
     line-height: 17px;
     text-align: center;
   }
+  .java-script-writer {
+    height: 33px;
+    width: 469px;
+    color: #3399FF;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 33px;
+  }
+  .pizza-devourer {
+    height: 33px;
+    width: 427px;
+    color: #3399FF;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 33px;
+  }
+  .pet-accumulator {
+    height: 33px;
+    width: 458px;
+    color: #3399FF;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 33px;
+  }
+  .iu-developer {
+    height: 33px;
+    width: 491px;
+    color: #3399FF;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 33px;
+  }
+  .group-script {
+    height: 26px;
+    width: 50px;
+  }
+  .group-pizza {
+    height: 44px;
+    width: 35px;
+  }
+  .group-dog {
+    height: 45px;
+    width: 52px;
+  }
+  .group-pc {
+    height: 38px;
+    width: 43px;
+  }
+  .titulo-4 {
+    height: 47px;
+    width: 646px;
+    color: #7733FF;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 9px;
+    line-height: 47px;
+    text-align: center;
+  }

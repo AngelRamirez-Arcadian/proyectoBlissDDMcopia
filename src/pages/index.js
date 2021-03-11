@@ -10,6 +10,8 @@ import CurriculumP3 from '../components/curriculumpag/curriculumThree'
 import CurriculumP4 from '../components/curriculumpag/curriculumFour'
 import CurriculumP5 from '../components/curriculumpag/curriculumFive'
 import CurriculumP6 from '../components/curriculumpag/curriculumSix'
+import Infomenu from '../components/infoMenu'
+import CurriculumP7 from '../components/curriculumpag/curriculumSeven'
 
 
 //import SEO from "../components/seo";
@@ -36,6 +38,10 @@ function IndexPage() {
     <CurriculumP5/>
     <br></br>
     <CurriculumP6/>
+    <br></br>
+    <Infomenu/>
+    <br></br>
+    <CurriculumP7/>
     </Fragment>
   );
 }
