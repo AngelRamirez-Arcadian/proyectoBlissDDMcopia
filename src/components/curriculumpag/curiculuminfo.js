@@ -3,28 +3,28 @@ import React from 'react';
 const InfocurriculumP1 = () => {
     return ( 
         
-        <div className="grid justify-items-center">
+        <div className="sm:grid sm:grid-cols-1 sm:justify-items-center sm:text-3x1 sm:place-content-center md:grid md:grid-cols-1 md:justify-items-center md:text-3x1 md:place-content-center">
 
-                <div className="space-x-4 flex justify-end">
-                    <h1 className="fecha">JULIO 2018 - PRESENTE</h1>
+                <div className="sm:space-x-4 sm:flex sm:justify-center md:space-x-4 md:flex md:justify-center">
+                    <h1 className="fecha sm:text-xs md:text-xs sm:text-center md:text-center">JULIO 2018 - PRESENTE</h1>
                 </div>
 
-                <div className="mt-8">
+                <div className="sm:mt-1 sm:flex sm:justify-center md:mt-2 md:flex md:justify-center">
                     <h1 className="titulo-2">BlissDDM</h1>
                 </div>
 
                 <div>
-                    <h1 className="subtitulo-3">&#60; Director General/ &#62;</h1>
+                    <h1 className="subtitulo-3 sm:text-xs md:text-base sm:text-center md:text-center">&#60; Director General/ &#62;</h1>
                 </div>
 
-                <div className="mt-8">
-                    <h1 className="textos-3">Búsqueda de clientes potenciales.
-                    Trabajo con empresas directamente para brindar soluciones de ingeniería de software.
-                    Manejo de proyectos y equipos de desarrollo de software.</h1>
+                <div className="textos-3 sm:mt-2 sm:container md:mt-6 md:container md:mx-auto">
+                    <h1 className="sm:text-xs md:text-sm sm:text-center"><p>Búsqueda de clientes potenciales.</p>
+                    <p>Trabajo con empresas directamente para brindar soluciones de ingeniería de software.</p>
+                    <p>Manejo de proyectos y equipos de desarrollo de software.</p></h1>
                 </div>
 
-                <div className="mt-8">
-                    <div className="space-x-4 flex justify-end">
+                <div className="md:mt-32 sm:mt-8">
+                    <div className="sm:space-x-4 sm:flex sm:justify-end md:space-x-4 md:flex md:justify-end">
 
                         <div>
                             <h1 className="selector-inactivo"></h1>
@@ -36,7 +36,7 @@ const InfocurriculumP1 = () => {
 
                     </div>
 
-                    <div className="space-x-4 flex justify-between mt-5">   
+                    <div className="sm::space-x-4 sm:flex sm:justify-between sm:mt-5 md:space-x-4 md:flex md:justify-between md:mt-5">   
 
                         <div>
                             <h1 className=" fecha-activa">2018</h1>

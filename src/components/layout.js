@@ -1,38 +1,39 @@
 import React from "react";
 import Hero from './hero'
 import Nombre from './nombre'
-//import Header from "./header";
 import Lateral from './lateral'
-import Spotify from './spotify'
-import imagen from '../images/ImagenFondo.png'
+import Lines from './lines'
+
 
 
 
 function Layout() {
   return (
 
-    <div className="mx-full relative inset-0 h-full w-full object-cover font-sans text-gray-900 bg-themeDarkBlue">
-          <img className="absolute inset-0 h-full w-full object-cover opacity-30" src={imagen} alt="" />
-    <div className="flex space-x-4">
-      <div className="flex-1 relative flex justify-center">
-        <Lateral />
-      </div>
+    <div className="min-h-full p-28 font-sans text-gray-900 bg-themeDarkBlue">
+    <div >
 
-      <div className="flex-1 relative flex justify-around">
-        <div className="w-full flex flex-col justify-center">
-          <div className="mp-auto flex justify-center">
+          <div className="sm:grid sm:grid-cols-3 md:grid md:grid-cols-3 lg:grid lg:grid-cols-3 xl:grid xl:grid-cols-3 2x1:grid 2x1:grid-cols-3">
+
+            <div className="sm:flex sm:justify-start md:flex md:justify-start lg:flex lg:justify-start xl:flex xl:justify-start 2xl:flex 2x1:justify-start">
+            <Lateral />
+            </div>
+
+            <div className="sm:flex sm:justify-center md:flex md:justify-center lg:flex lg:justify-center xl:flex xl:justify-center 2x1:flex 2x1:justify-center">
               <Nombre />
+            </div>
+
+            <div className="sm:flex sm:justify-end md:flex md:justify-end lg:flex lg:justify-end xl:flex xl:justify-end 2x1:flex 2x1:justify-end">
+              <Lines />
+            </div>
+
           </div>
-        </div>
-      </div>
-
-      <div className="flex-1 relative">
-        <Spotify />
-      </div>
+    </div>  
+    <div>
+      <Hero/>
     </div>
-    <Hero />
+    
     </div>
-
   );
 }
 export default Layout;

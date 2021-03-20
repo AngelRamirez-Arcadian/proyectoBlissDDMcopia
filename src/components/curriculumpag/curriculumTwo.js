@@ -1,39 +1,24 @@
 import React from "react";
 import Hero from '../hero'
-import Lateral from '../lateral'
-import Lines from '../lines'
 import InfocurriculumP2 from './curriculuminfoTwo'
 
 
 
 function CurriculumP2() {
   return (
-      <body className=" mx-full relative inset-0 h-full w-full object-cover font-sans text-gray-900 bg-themeDarkBlue">
-        <header className="container grid justify-items-end h-48 flex-wrap content-end">
-            <h1 className="indicador-de-pagina2 ">&#60;CURRICULUM/ &#62;</h1>
-        </header>
-        <div className="mx-full relative inset-0 h-full w-full object-cover font-sans text-gray-900 bg-themeDarkBlue">
-
-    <div className="flex space-x-4">
-      <div className="flex-1 relative flex justify-center">
-        <Lateral />
-      </div>
-
-      <div className="flex-1 relative flex justify-around">
-        <div className="w-full flex flex-col justify-center">
-          <div className="mp-auto flex justify-center">
-              <InfocurriculumP2/>
+    <div className="min-h-full p-28 font-sans text-gray-900 bg-themeDarkBlue">
+    <header className="sm:flex sm:justify-end sr:mr-10 md:flex md:justify-end md:mr-10">
+    <h1 className="indicador-de-pagina2 ">&#60;CURRICULUM/ &#62;</h1>
+    </header>
+          <div className="sm:flex sm:justify-center sm:mt-20 md:flex md:justify-center md:mt-36 lg:flex lg:justify-center xl:flex xl:justify-center 2x1:flex 2x1:justify-center">
+            <InfocurriculumP2 />
           </div>
-        </div>
-      </div>
-
-      <div className="flex-1 relative">
-        <Lines/>
-      </div>
-    </div>
-    <Hero />
-    </div>
-    </body>
+  
+  <footer className="sm:mt-20 md:mt-20">
+    <Hero/>
+  </footer>
+  
+  </div>
 
   );
 }

@@ -6,7 +6,7 @@ import React from 'react';
 
 const Lines = () => {
     return ( 
-        
+        //Checar aun
         <div className="w-full flex flex-col justify-center">
             <div className="m-12 p-12 flex justify-center">
 
@@ -19,7 +19,7 @@ const Lines = () => {
                     </div>
                         
                     <div className="p-5">
-                        <h1 className="line2"></h1>
+                        <h1 className="line"></h1>
                     </div>
 
                     <div className="p-5">

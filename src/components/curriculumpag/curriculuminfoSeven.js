@@ -3,28 +3,32 @@ import React from 'react';
 const InfocurriculumP7 = () => {
     return ( 
         
-        <div className="grid justify-items-center">
+        <div className="sm:grid sm:grid-cols-1 sm:justify-items-center sm:text-3x1 sm:place-content-center md:grid md:grid-cols-1 md:justify-items-center md:text-3x1 md:place-content-center">
 
-                <div className="space-x-4 flex justify-end">
-                    <h1 className="fecha-2">MARZO - SEPTIEMBRE 2011</h1>
+                <div className="sm:space-x-4 sm:flex sm:justify-center md:space-x-4 md:flex md:justify-center">
+                    <h1 className="fecha-2 sm:text-xs md:text-xs sm:text-center md:text-center">DICIEMBRE 2011 - SEPTIEMBRE 2013</h1>
                 </div>
 
-                <div className="mt-8">
-                    <h1 className="titulo-4"> Softgüer S.A. de C.V. </h1>
-                </div>
-
-                <div>
-                    <h1 className="subtitulo-3">&#60;Desarrollador Java web/&#62;</h1>
+                <div className="sm:mt-1 sm:flex sm:justify-center md:mt-2 md:flex md:justify-center">
+                    <h1 className="titulo-3"> Ixpan S.A. de C.V.</h1>
                 </div>
 
                 <div>
-                    <h1 className="texto-4 mt-10">Contribución al desarrollo de una red social con enfoque educativo.
-                                                Implementación de características en el servidor usando Hibernate y Struts.</h1>
-
+                    <h1 className="subtitulo-3 sm:text-xs md:text-base sm:text-center md:text-center">&#60;Desarrollador Móvil y web/&#62;</h1>
                 </div>
 
-                <div className="mt-8">
-                    <div className="space-x-4 flex justify-end">
+                <div className="textos-3 sm:mt-2 sm:container md:mt-6 md:container md:mx-auto">
+                    <h1 className="sm:text-xs md:text-sm sm:text-center">
+                    <p>Desarrollo de varios sitios web.</p>
+                    <p>Creación de un framework y plugins para aplicaciones móviles</p>
+                    <p>privadas usando Phonegap.</p>
+                    <p>Desarrollo de aplicaciones privadas usando NodeJS.</p>
+                    <p>Desarrollo de aplicaciones en Android.</p>
+                    </h1>
+                </div>
+
+                <div className="md:mt-32 sm:mt-24">
+                    <div className="sm:space-x-4 sm:flex sm:justify-end md:space-x-4 md:flex md:justify-end">
 
                         <div>
                             <h1 className="selector-inactivo"></h1>
@@ -36,7 +40,7 @@ const InfocurriculumP7 = () => {
 
                     </div>
 
-                    <div className="space-x-4 flex justify-between mt-5">   
+                    <div className="sm:space-x-4 sm:flex sm:justify-between sm:mt-5 md:space-x-4 md:flex md:justify-between md:mt-5">   
 
                         <div>
                             <h1 className="ano-inactivo">2018</h1>

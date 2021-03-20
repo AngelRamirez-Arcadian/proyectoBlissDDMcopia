@@ -10,8 +10,9 @@ import CurriculumP3 from '../components/curriculumpag/curriculumThree'
 import CurriculumP4 from '../components/curriculumpag/curriculumFour'
 import CurriculumP5 from '../components/curriculumpag/curriculumFive'
 import CurriculumP6 from '../components/curriculumpag/curriculumSix'
-import Infomenu from '../components/infoMenu'
+// import Infomenu from '../components/infoMenu'
 import CurriculumP7 from '../components/curriculumpag/curriculumSeven'
+import CurriculumP8 from '../components/curriculumpag/curriculumEight'
 
 
 //import SEO from "../components/seo";
@@ -20,28 +21,18 @@ function IndexPage() {
   return (
     <Fragment>
     <Layout/>
-    <br></br>
     <AcercaDeMi/>
-    <br></br>
     <Acercademitwo/>
-    <br></br>
     <Acercademithree/>
-    <br></br>
     <CurriculumP1/>
-    <br></br>
     <CurriculumP2/>
-    <br></br>
     <CurriculumP3/>
-    <br></br>
     <CurriculumP4/>
-    <br></br>
     <CurriculumP5/>
-    <br></br>
     <CurriculumP6/>
-    <br></br>
-    <Infomenu/>
-    <br></br>
-    <CurriculumP7/>
+    {/*<Infomenu/>*/}
+    <CurriculumP7/> 
+    <CurriculumP8/>
     </Fragment>
   );
 }

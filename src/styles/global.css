@@ -34,6 +34,11 @@
     width: 554px;
   }
 
+  .lateral {
+    height: 669px;
+  width: 39px;
+  }
+
   .hi-danrocha-xyz {
     height: 14px;
     width: 80px;
@@ -88,9 +93,10 @@
   }
   .line {
     box-sizing: border-box;
+    border-radius: 9999px;
     height: 0.1px;
-    width: 20px;
-    border: 3px solid #3399FF;
+    width: 40px;
+    border: 2px solid #3399FF;
   }
   .line2 {
     box-sizing: border-box;
@@ -141,7 +147,7 @@
     font-weight: 800;
     letter-spacing: 9px;
     line-height: 47px;
-    text-align: center;
+    text-align: justify;
   }
   .subtitulo {
     height: 29px;
@@ -188,7 +194,7 @@
   }
   .lista {
     height: 154px;
-    width: 426px;
+    width: 526px;
     color: #3399FF;
     font-family: "Open Sans";
     font-size: 14px;
@@ -209,23 +215,24 @@
   }
   .textos-2-1 {
     height: 76px;
-    width: 598px;
+    width: 658px;
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: justify;
+    text-align: center;
+  }
+  .texto-3 {
+    height: 76px;
+    width: 450px;
     color: #FFFFFF;
     font-family: "Open Sans";
     font-size: 14px;
     letter-spacing: 0;
     line-height: 19px;
     text-align: center;
-  }
-  .texto-3 {
-    height: 76px;
-    width: 598px;
-    color: #FFFFFF;
-    font-family: "Open Sans";
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 19px;
-    text-align: start;
   }
   .informacion-1 {
     height: 43px;
@@ -236,7 +243,7 @@
     width: 400px;
     color: #3399FF;
     font-family: "Open Sans";
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 800;
     letter-spacing: 0;
     line-height: 53px;
@@ -257,8 +264,8 @@
     width: 38px;
   }
   .act {
-    height: 76px;
-    width: 450px;
+  height: 263px;
+  width: 344px;
   }
 
   .fecha {

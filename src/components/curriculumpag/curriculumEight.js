@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from '../hero'
-import Infocurriculum7 from './curriculuminfoSeven'
+import Infocurriculum8 from './curriculuminfoEight'
 
 
 
@@ -11,7 +11,7 @@ function CurriculumP7() {
     <h1 className="indicador-de-pagina2 ">&#60;CURRICULUM/ &#62;</h1>
     </header>
           <div className="sm:flex sm:justify-center sm:mt-20 md:flex md:justify-center md:mt-32 lg:flex lg:justify-center xl:flex xl:justify-center 2x1:flex 2x1:justify-center">
-            <Infocurriculum7 />
+            <Infocurriculum8 />
           </div>
   
   <footer className="sm:mt-20 md:mt-20">
