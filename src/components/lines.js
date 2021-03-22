@@ -4,7 +4,7 @@ import React from 'react';
 
 
 
-const Lines = () => {
+const Menu = () => {
     return ( 
         //Checar aun
         <div className="w-full flex flex-col justify-center">
@@ -40,4 +40,4 @@ const Lines = () => {
 )
 }
  
-export default Lines
+export default Menu

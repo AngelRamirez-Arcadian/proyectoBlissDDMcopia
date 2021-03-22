@@ -1,5 +1,4 @@
 import React from "react";
-import Hero from '../hero'
 import InfocurriculumP1 from './curiculuminfo'
 
 
@@ -13,11 +12,6 @@ function CurriculumP1() {
             <div className="sm:flex sm:justify-center sm:mt-20 md:flex md:justify-center md:mt-36 lg:flex lg:justify-center xl:flex xl:justify-center 2x1:flex 2x1:justify-center">
               <InfocurriculumP1 />
             </div>
-    
-    <footer className="sm:mt-20 md:mt-20">
-      <Hero/>
-    </footer>
-    
     </div>
   );
 }

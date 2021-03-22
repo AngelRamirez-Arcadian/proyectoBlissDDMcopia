@@ -1,8 +1,8 @@
 import React from "react";
+import SocialIcon from './socialIcon'
 import Hero from './hero'
-import Nombre from './nombre'
 import Lateral from './lateral'
-import Lines from './lines'
+import Menu from './lines'
 
 
 
@@ -20,17 +20,22 @@ function Layout() {
             </div>
 
             <div className="sm:flex sm:justify-center md:flex md:justify-center lg:flex lg:justify-center xl:flex xl:justify-center 2x1:flex 2x1:justify-center">
-              <Nombre />
+              <Hero />
             </div>
 
             <div className="sm:flex sm:justify-end md:flex md:justify-end lg:flex lg:justify-end xl:flex xl:justify-end 2x1:flex 2x1:justify-end">
-              <Lines />
+              <Menu />
             </div>
 
           </div>
     </div>  
-    <div>
-      <Hero/>
+    <div className="flex flex-1 relative">
+      <div className="w-full flex flex-row justify-center items-end">
+        <SocialIcon iconName="Github" />
+        <SocialIcon iconName="Linkedin" />
+        <SocialIcon iconName="Over" />
+        <SocialIcon iconName="Twitter" />
+      </div>
     </div>
     
     </div>

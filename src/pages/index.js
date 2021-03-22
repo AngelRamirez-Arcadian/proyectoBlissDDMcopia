@@ -14,7 +14,6 @@ import CurriculumP6 from '../components/curriculumpag/curriculumSix'
 import CurriculumP7 from '../components/curriculumpag/curriculumSeven'
 import CurriculumP8 from '../components/curriculumpag/curriculumEight'
 
-
 //import SEO from "../components/seo";
 
 function IndexPage() {
