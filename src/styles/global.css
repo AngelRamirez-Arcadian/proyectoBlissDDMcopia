@@ -3,47 +3,71 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
 
+.menu{
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 368px 40px 326px 0px;
+}
+.image{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: url(../images/ImagenFondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.daniel {
+  height: 150px;
+  width: 413px;
+  transform: rotate(270deg);
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 110px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 150px;
+  text-align: center;
+}
+
 .rocha {
-    height: 150px;
-    width: 398px;
-    transform: rotate(90deg);
-    color: #FFFFFF;
-    font-family: "Open Sans";
-    font-size: 110px;
-    font-weight: 800;
-    letter-spacing: 0;
-    line-height: 150px;
-    text-align: center;
-  }
+  height: 150px;
+  width: 398px;
+  transform: rotate(90deg);
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 110px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 150px;
+  text-align: center;
+}
 
-  .daniel {
-    height: 150px;
-    width: 413px;
-    transform: rotate(270deg);
-    color: #FFFFFF;
-    font-family: "Open Sans";
-    font-size: 110px;
-    font-weight: 800;
-    letter-spacing: 0;
-    line-height: 150px;
-    text-align: center;
-  }
+.iconssm{
+  position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.lateral{
+  width: 100vh;
+  height: 70px;
+  transform: rotate(90deg) translate(-35px, -35px);
+  transform-origin: left;
+  top: 0;
+  align-items: center;
+  padding: 0px 54px 17px 77px;
+  position: fixed;
+}
 
-  .imagen-fondo {
-    height: 739px;
-    width: 420px;
-  }
-
-  .lateral {
-    height: 669px;
-  width: 39px;
-  }
-
-  .hi-danrocha-xyz {
+.hi-danrocha-xyz {
     height: 14px;
     width: 80px;
-    transform: rotate(90deg);
-    color: #3399FF;
+    color: #7733FF;
     font-family: "Open Sans";
     font-size: 10px;
     font-weight: 300;
@@ -51,22 +75,22 @@
     line-height: 14px;
     text-align: center;
   }
+
   .nombre-de-la-agencia {
     height: 15px;
-    width: 208px;
-    transform: rotate(90deg);
-    color: #3399FF;
+    width: 100%;
+    color: #7733FF;
     font-family: "Open Sans";
     font-size: 11px;
     letter-spacing: 0;
     line-height: 15px;
     text-align: center;
   }
+
   .canutillo-209-canut {
     height: 14px;
-    width: 279px;
-    transform: rotate(90deg);
-    color: #3399FF;
+    width: 100%;
+    color: #7733FF;
     font-family: "Open Sans";
     font-size: 10px;
     font-weight: 300;
@@ -74,11 +98,11 @@
     line-height: 14px;
     text-align: center;
   }
+
   .cv {
     height: 14px;
     width: 14px;
-    transform: rotate(90deg);
-    color: #3399FF;
+    color: #7733FF;
     font-family: "Open Sans";
     font-size: 10px;
     font-weight: 300;
@@ -87,390 +111,10 @@
     text-align: center;
   }
 
-  .menu {
-    height: 106px;
-    width: 40px;
-  }
   .line {
     box-sizing: border-box;
     border-radius: 9999px;
     height: 0.1px;
     width: 40px;
     border: 2px solid #3399FF;
-  }
-  .line2 {
-    box-sizing: border-box;
-    height: 2px;
-    width: 40px;
-    border: 3px solid #3399FF;
-  }
-  .mi-playlist {
-    height: 19px;
-    width: 96px;
-    color: #7733FF;
-    font-family: "Open Sans";
-    font-size: 20px;
-    font-weight: 800;
-    letter-spacing: 0;
-    line-height: 19px;
-    text-align: center;
-  }
-
-  .indicador-de-pagina {
-    height: 14px;
-    width: 136px;
-    color: #7733FF;
-    font-family: "Open Sans";
-    font-size: 15px;
-    letter-spacing: 3.57px;
-    line-height: 14px;
-    text-align: center;
-  }
-  .indicador-de-pagina2 {
-    height: 19px;
-    width: 192px;
-    color: #3399FF;
-    font-family: "Open Sans";
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 5px;
-    line-height: 19px;
-    text-align: center;
-  }
-
-  .titulo {
-    height: 47px;
-    width: 356px;
-    color: #7733FF;
-    font-family: "Open Sans";
-    font-size: 30px;
-    font-weight: 800;
-    letter-spacing: 9px;
-    line-height: 47px;
-    text-align: justify;
-  }
-  .subtitulo {
-    height: 29px;
-    width: 730px;
-    color: #3399FF;
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-weight: 800;
-    letter-spacing: 4px;
-    line-height: 29px;
-    text-align: center;
-  }
-  .textos-1 {
-    height: 76px;
-    width: 563px;
-    color: #FFFFFF;
-    font-family: "Open Sans";
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 22px;
-    text-align: center;
-  }
-  
-  .textos-2 {
-    height: 53px;
-    width: 598px;
-    color: #FFFFFF;
-    font-family: "Open Sans";
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 22px;
-    text-align: center;
-  }
-  .subtitulo-2 {
-    height: 22px;
-    width: 210px;
-    color: #3399FF;
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-weight: 800;
-    letter-spacing: 4px;
-    line-height: 22px;
-    text-align: center;
-  }
-  .lista {
-    height: 154px;
-    width: 526px;
-    color: #3399FF;
-    font-family: "Open Sans";
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 0;
-    line-height: 22px;
-  }
-  .icono {
-    height: 22px;
-    width: 13px;
-    color: #3399FF;
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-weight: 800;
-    letter-spacing: 3.43px;
-    line-height: 22px;
-    text-align: center;
-  }
-  .textos-2-1 {
-    height: 76px;
-    width: 658px;
-    color: #FFFFFF;
-    font-family: "Open Sans";
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 19px;
-    text-align: justify;
-    text-align: center;
-  }
-  .texto-3 {
-    height: 76px;
-    width: 450px;
-    color: #FFFFFF;
-    font-family: "Open Sans";
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 19px;
-    text-align: center;
-  }
-  .informacion-1 {
-    height: 43px;
-    width: 467px;
-  }
-  .software-engineer {
-    height: 33px;
-    width: 400px;
-    color: #3399FF;
-    font-family: "Open Sans";
-    font-size: 30px;
-    font-weight: 800;
-    letter-spacing: 0;
-    line-height: 53px;
-  }
-  .software-engineer-icon {
-    height: 38px;
-    width: 38px;
-    color: #3399FF;
-    font-family: "Open Sans";
-    font-size: 22px;
-    font-weight: 800;
-    letter-spacing: 0;
-    line-height: 33px;
-    margin: 0 0 0 0;
-  }
-  .pc {
-    height: 38px;
-    width: 38px;
-  }
-  .act {
-  height: 263px;
-  width: 344px;
-  }
-
-  .fecha {
-    height: 17px;
-    width: 416px;
-    color: #FFFFFF;
-    font-family: "Open Sans";
-    font-size: 12px;
-    font-weight: 300;
-    letter-spacing: 9px;
-    line-height: 17px;
-    text-align: center;
-  }
-  .titulo-2 {
-    height: 47px;
-    width: 241px;
-    color: #7733FF;
-    font-family: "Open Sans";
-    font-size: 35px;
-    font-weight: 800;
-    letter-spacing: 9px;
-    line-height: 47px;
-    text-align: center;
-  }
-  .subtitulo-3 {
-    height: 22px;
-    width: 434px;
-    color: #3399FF;
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-weight: 800;
-    letter-spacing: 4px;
-    line-height: 22px;
-    text-align: center;
-  }
-  .textos-3 {
-    height: 68px;
-    width: 572px;
-    color: #FFFFFF;
-    font-family: "Open Sans";
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 22px;
-    text-align: center;
-  }
-  .texto-4 {
-    height: 87px;
-    width: 701px;
-    color: #FFFFFF;
-    font-family: "Open Sans";
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 22px;
-    text-align: center;
-  }
-  
-  .selector-inactivo {
-    box-sizing: border-box;
-    height: 16px;
-    width: 16px;
-    border: 1px solid #3399FF;
-    background-color: #151B38;
-  }
-  .line-2 {
-    box-sizing: border-box;
-    height: 3px;
-    width: 528px;
-    border: 1px solid #3399FF;
-  }
-  .fecha-activa {
-    height: 22px;
-    width: 54px;
-    color: #7733FF;
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-weight: 800;
-    letter-spacing: 4.11px;
-    line-height: 22px;
-    text-align: center;
-  }
-  .ano-inactivo {
-    height: 17px;
-    width: 40px;
-    opacity: 0.25;
-    color: #FFFFFF;
-    font-family: "Open Sans";
-    font-size: 12px;
-    letter-spacing: 3.09px;
-    line-height: 17px;
-    text-align: center;
-  }
-  .subtitulo-4 {
-    height: 22px;
-    width: 217px;
-    color: #FFFFFF;
-    font-family: "Open Sans";
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 22px;
-    text-align: center;
-  }
-  .subtitulo-5 {
-    height: 22px;
-    width: 317px;
-    color: #FFFFFF;
-    font-family: "Open Sans";
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 22px;
-    text-align: center;
-  }
-  .selector-activo {
-    box-sizing: border-box;
-    height: 16px;
-    width: 16px;
-    border: 1px solid #7733FF;
-    background-color: #151B38;
-    box-shadow: 0 2px 13px 0 #7733FF;
-  }
-  .titulo-3 {
-    height: 47px;
-    width: 541px;
-    color: #7733FF;
-    font-family: "Open Sans";
-    font-size: 35px;
-    font-weight: 800;
-    letter-spacing: 9px;
-    line-height: 47px;
-    text-align: center;
-  }
-  .fecha-2 {
-    height: 17px;
-    width: 516px;
-    color: #FFFFFF;
-    font-family: "Open Sans";
-    font-size: 12px;
-    font-weight: 300;
-    letter-spacing: 9px;
-    line-height: 17px;
-    text-align: center;
-  }
-  .java-script-writer {
-    height: 33px;
-    width: 469px;
-    color: #3399FF;
-    font-family: "Open Sans";
-    font-size: 24px;
-    font-weight: 800;
-    letter-spacing: 0;
-    line-height: 33px;
-  }
-  .pizza-devourer {
-    height: 33px;
-    width: 427px;
-    color: #3399FF;
-    font-family: "Open Sans";
-    font-size: 24px;
-    font-weight: 800;
-    letter-spacing: 0;
-    line-height: 33px;
-  }
-  .pet-accumulator {
-    height: 33px;
-    width: 458px;
-    color: #3399FF;
-    font-family: "Open Sans";
-    font-size: 24px;
-    font-weight: 800;
-    letter-spacing: 0;
-    line-height: 33px;
-  }
-  .iu-developer {
-    height: 33px;
-    width: 491px;
-    color: #3399FF;
-    font-family: "Open Sans";
-    font-size: 24px;
-    font-weight: 800;
-    letter-spacing: 0;
-    line-height: 33px;
-  }
-  .group-script {
-    height: 26px;
-    width: 50px;
-  }
-  .group-pizza {
-    height: 44px;
-    width: 35px;
-  }
-  .group-dog {
-    height: 45px;
-    width: 52px;
-  }
-  .group-pc {
-    height: 38px;
-    width: 43px;
-  }
-  .titulo-4 {
-    height: 47px;
-    width: 646px;
-    color: #7733FF;
-    font-family: "Open Sans";
-    font-size: 35px;
-    font-weight: 800;
-    letter-spacing: 9px;
-    line-height: 47px;
-    text-align: center;
   }

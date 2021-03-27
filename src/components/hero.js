@@ -1,26 +1,58 @@
 import React from 'react'
-import Imagen from '../images/ImagenFondo.png'
-
-
+import SocialIcon from './socialIcon'
+import Header from './header'
 
 
 const Hero = () => (
+<main className="fixed w-screen inset-0 h-screen font-sans text-gray-900 bg-themeDarkBlue">
 
-  <div>
-    <img className="imagen-fondo absolute object-cover opacity-30" src={Imagen}/>
-    <div className="relative md:mt-60 sm:mt-60">
-      <div className="sm:w-full sm:flex sm:flex-col sm:justify-center md:w-full md:flex md:flex-col md:justify-center">
-            <div className="sm:flex sm:justify-center md:flex md:justify-center">
-                <h1 className="rocha sm:p-11 md:p-11">DANIEL</h1>
-            </div>
-
-            <div className="sm:flex sm:justify-center md:flex md:justify-center">
-                <h1 className="daniel sm:p-11 md:p-11">ROCHA</h1>
-            </div>
+  <div className="lateral fixed top-0 bottom-0 flex justify-between">
+      <div>
+        <p className="hi-danrocha-xyz">hi@danrocha.xyz</p>
       </div>
+      <div>
+        <p className="nombre-de-la-agencia font-bold pb-6">© 2018 Bliss DDM | All Rights Reserved</p>
+        <p className="canutillo-209-canut">Canutillo 209, Canutillo, 42083 Pachuca de Soto, Hgo., México.</p>
+      </div>
+      <div>
+        <p className="cv">CV</p>
+      </div>
+  </div>
+
+  
+
+{/* Pendiente Menu */}
+  <div>        
+                <div className="menu">
+                    <div className="p-5">
+                        <h1 className="line"></h1>
+                    </div>
+                        
+                    <div className="p-5">
+                        <h1 className="line"></h1>
+                    </div>
+
+                    <div className="p-5">
+                        <h1 className="line"></h1>
+                    </div>
+
+                    <div className="p-5">
+                        <h1 className="line"></h1>
+                    </div>
+        </div>
+  </div>
+
+  <div className="iconssm flex flex-1 relative">
+    <div className="w-full flex flex-row justify-center items-end pb-20">
+      <SocialIcon iconName="github" />
+      <SocialIcon iconName="linkedIn" />
+      <SocialIcon iconName="stackOverflow" />
+      <SocialIcon iconName="twitter" />
     </div>
   </div>
 
+</main>
+
 )
- 
+
 export default Hero
